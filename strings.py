@@ -52,3 +52,10 @@ print(greeting + ' ' + name + '. Welcome! ')
 new_message = '{},{}. Welcome!'.format(greeting,name) #placeholder for variable strings
 print(new_message)
 
+#f strings in Python 3.6
+f_message = f'{greeting}, {name}. Welcome!!'
+print(f_message)
+
+print(dir(message))
+print(message.isspace())
+print(help(str.isspace(message)))
